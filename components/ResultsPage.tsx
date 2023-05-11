@@ -20,7 +20,7 @@ const ResultsPage = () => {
         },
       });
 
-    const [items, setItems] = useState([]);
+    const [items, setItems] = useState([] as any[]);
     const [search, setSearch] = useState<string>('');
     const [pubYear, setYear] = useState(0);
 
